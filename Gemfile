@@ -7,6 +7,7 @@ gem 'rails', '3.2.16'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
+  gem 'factory_girl_rails', '4.1.0'
 end
 
 
