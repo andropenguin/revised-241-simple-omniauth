@@ -8,8 +8,9 @@
   <%= yield(:head) %>
 </head>
 <body>
-
-<%= yield %>
-
+  <div id="user_nav">
+    <%= link_to "Sign in with Twitter", "/auth/twitter" %>
+  </div>
+  <%= yield %>
 </body>
 </html>
