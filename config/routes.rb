@@ -1,6 +1,8 @@
 Blog::Application.routes.draw do
   root to: "articles#index"
 
+  match "/auth/:provider/callback" => "sessions#create"
+
   resources :articles
   resources :comments
   # The priority is based upon order of creation:
