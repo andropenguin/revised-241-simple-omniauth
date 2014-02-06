@@ -21,4 +21,5 @@ doc/
 .project
 .DS_Store
 .idea
+config/initializers/omniauth.rb
 

@@ -42,6 +42,7 @@ gem 'jquery-rails'
 
 gem 'execjs', '2.0.2'
 gem 'therubyracer', '0.12.1'
+gem 'omniauth', '1.2.1'
 
 group :production do
   gem 'pg', '0.17.1'
