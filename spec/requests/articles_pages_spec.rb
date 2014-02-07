@@ -10,6 +10,6 @@ describe "ArticlesPages" do
     
     it { should have_selector('h1', text: 'Articles') }
     it { should have_selector('title', text: 'Articles') }
-    it { should have_link("Sign in with Twitter", text: 'http://localhost:3000/auth/twitter') }
+    it { should have_link("Sign in with Twitter", text: root_url + '/auth/twitter') }
   end
 end
