@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe "ArticlesPages" do
-  
   subject { page }
 
   describe "not signed in" do
@@ -11,5 +10,6 @@ describe "ArticlesPages" do
     
     it { should have_selector('h1', text: 'Articles') }
     it { should have_selector('title', text: 'Articles') }
+    it { should have_link("Sign in with Twitter", text: 'http://localhost:3000/auth/twitter') }
   end
 end
