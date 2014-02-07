@@ -4,7 +4,7 @@ module TwitterOmniauthHelper
   end
 
   def create_client
-# This is not bad use. It does not work.
+# This is a bad use. It does not work.
 # client = Twitter::Client.new(
 # :consumer_key => session[:consumer_key],
 # :consumer_secret => session[:consumer_secret],
