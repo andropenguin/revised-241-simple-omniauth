@@ -13,6 +13,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.14.1'
   gem 'factory_girl_rails', '4.1.0'
+  gem 'spork', '0.9.2'
 end
 
 group :test do
@@ -52,6 +53,7 @@ gem 'execjs', '2.0.2'
 gem 'therubyracer', '0.12.1'
 gem 'omniauth', '1.2.1'
 gem 'omniauth-twitter', '1.0.1'
+gem 'twitter', '5.6.0'
 
 group :production do
   gem 'pg', '0.17.1'
